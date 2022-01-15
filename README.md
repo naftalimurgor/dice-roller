@@ -7,9 +7,9 @@
 First Android app! A simple dice roller app.
 
 Concepts learnt:
-- setting up Android Studio and development environment for Android and Kotlin dev
+- Setting up Android Studio and development environment for Android and Kotlin dev
 - Basic XML for layouts.
-- get view elements using the `findViewById` method.
+- Get view elements using the `findViewById` method.
 - Adding interactivity to Button Element.
 - Dynamically change resource and TextView content.
 - Building the application.
