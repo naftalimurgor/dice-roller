@@ -11,11 +11,13 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         val rollButton: Button = findViewById(R.id.roll_button)
         rollButton.text = "Let's roll the dice"
         rollButton.setOnClickListener {
             rollDice()
         }
+
         diceImageView = findViewById(R.id.dice_image)
     }
 
